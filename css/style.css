@@ -1377,13 +1377,21 @@
         flex-wrap: wrap;
     }
     
-    .about__menu {
+    .grid {
+        display: grid;
+        grid-column-gap: 15px;
+        grid-row-gap: 15px;
+        grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+        padding: 0px;
+        list-style: none;
+    }
+    
+    .about__tab {
         display: flex;
         background-color: rgba(255, 255, 255, 0.1);
         border-radius: 16px;
-        padding: 16px 52px 16px 16px;
+        padding: 16px;
         cursor: pointer;
-        margin-bottom: 21px;
         box-shadow: rgba(2, 19, 79, 0.1) 0px 20px 20px 0px;
     }
     
